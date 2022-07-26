@@ -1,0 +1,19 @@
+.header-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+h1{
+    width: 100%;
+}
+
+input[type="text"],input[type="email"]{
+    flex: 1;
+    outline: none;
+    padding:5px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
